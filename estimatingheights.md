@@ -1,7 +1,7 @@
 Estimating Heights of UofT Students
 ================
-Jenny Oh
-September 29, 2022
+Author: Jenny Oh \
+Date: September 29, 2022
 
 # Part 1
 
@@ -273,19 +273,19 @@ and *μ*<sub>*a**m*</sub> be the mean height of Asian male UofT students.
 Numerical Summary of Asian and White Males
 
 -   Assume
-    *σ*<sub>*w**m*</sub><sup>2</sup> = *σ*<sub>*a**m*</sub><sup>2</sup> = *σ*<sup>2</sup>
+    *σ*<sub>*wm*</sub><sup>2</sup> = *σ*<sub>*am*</sub><sup>2</sup> = *σ*<sup>2</sup>
     to test
-    *H*<sub>0</sub> : *μ*<sub>*w**m*</sub> = *μ*<sub>*a**m*</sub>
+    *H*<sub>0</sub> : *μ*<sub>*wm*</sub> = *μ*<sub>*am*</sub>
     against
-    *H*<sub>1</sub> : *μ*<sub>*w**m*</sub> ≠ *μ*<sub>*a**m*</sub>. The
+    *H*<sub>1</sub> : *μ*<sub>*wm*</sub> ≠ *μ*<sub>*am*</sub>. The
     following statistics are calculated using the formula (Devore &
     Berk, 2012). The calculations are included in **Appendix \[3\]**.
 
 -   Summary Statistics:
-    *x̄*<sub>*w**m*</sub> = 176.28, *s*<sub>*w**m*</sub><sup>2</sup> = 56.24, *n*<sub>*w**m*</sub> = 51
-    *x̄*<sub>*a**m*</sub> = 172.07, *s*<sub>*a**m*</sub><sup>2</sup> = 77.92, *n*<sub>*a**m*</sub> = 34
+    *x̄*<sub>*wm*</sub> = 176.28, *s*<sub>*wm*</sub><sup>2</sup> = 56.24, *n*<sub>*wm*</sub> = 51
+    *x̄*<sub>*am*</sub> = 172.07, *s*<sub>*am*</sub><sup>2</sup> = 77.92, *n*<sub>*am*</sub> = 34
 
--   Under *H*<sub>0</sub> : *μ*<sub>*w**m*</sub> = *μ*<sub>*a**m*</sub>:
+-   Under *H*<sub>0</sub> : *μ*<sub>*wm*</sub> = *μ*<sub>*am*</sub>:
     $$\\bar{X}\_{wm}-\\bar{X}\_{am} \\sim N(0, \\frac{\\sigma^2}{n\_{wm}}+\\frac{\\sigma^2}{ n\_{am}})$$
 
 -   Pooled variance:
@@ -294,14 +294,14 @@ Numerical Summary of Asian and White Males
 -   Test Statistic:
     *t* = 2.36
 
--   Sampling Distribution: *t* ∼ *T*<sub>*d**f* = 83</sub>
+-   Sampling Distribution: *t* ∼ *T*<sub>*df* = 83</sub>
 
 -   P-value: This is a two-tailed test and here we find the probability
     of observing a difference in mean heights as extreme as it was
     observed. In our data,
-    *x̄*<sub>*w**m*</sub> − *x̄*<sub>*a**m*</sub> = 4.216514.
+    *x̄*<sub>*wm*</sub> − *x̄*<sub>*am*</sub> = 4.216514.
 
-*P*(∣*T*<sub>*d**f* = 83</sub>∣≥2.36) = 0.02
+*P*(∣*T*<sub>*df* = 83</sub>∣≥2.36) = 0.02
 
 It is found that the p-value is 0.02.
 
@@ -440,23 +440,15 @@ Here is a glimpse of the data set simulated:
 
 ### \[2\]
 
--   Pooled variance:
-    $$s^2\_{p} = \\frac{(n\_{wm}-1)s^2\_{wm}+(n\_{am}-1)s^2\_{am}}{n\_{wm}+n\_{am}-2} = 
-    \\frac{50(56.23537)+33(77.92057)}{51+34-2} = 64.85719651$$
-
--   Test Statistic:
-    $$t = \\frac{(\\bar{x}\_{wm}-\\bar{x}\_{am})-(\\mu\_{wm}-\\mu\_{am})}{\\sqrt{{s^2\_{p}}(\\frac{1}{n\_{wm}}+\\frac{1}{n\_{am}})}}=
-    \\frac{(176.2847 - 172.0682)}{\\sqrt{{64.85719651}(\\frac{1}{51}+\\frac{1}{34})}}=2.364765617$$
-
 -   Sampling Distribution:
-    *t* ∼ *T*<sub>*d**f* = *n*<sub>*w**m*</sub> − *n*<sub>*a**m*</sub> − 2</sub>,
-    which is *t* ∼ *T*<sub>*d**f* = 83</sub>
+    *t* ∼ *T*<sub>*df* = *n*<sub>*wm*</sub> − *n*<sub>*am*</sub> − 2</sub>,
+    which is *t* ∼ *T*<sub>*df* = 83</sub>
 
 -   P-value: This is a two-tailed test, find the probability of
     observing a difference in mean scores as extreme as was observed. In
-    our data, *x̄*<sub>*w**m*</sub> − *x̄*<sub>*a**m*</sub> = 4.216514.
+    our data, *x̄*<sub>*wm*</sub> − *x̄*<sub>*am*</sub> = 4.216514.
 
-*P*(∣*T*<sub>*d**f* = 83</sub>∣≥2.364765617) = 0.01018758 ⋅ 2 = 0.02037515
+*P*(∣*T*<sub>*df* = 83</sub>∣≥2.364765617) = 0.01018758 ⋅ 2 = 0.02037515
 
 ### \[3\]
 
