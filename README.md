@@ -1,1 +1,1 @@
-# Estimating heights of the University of Toronto Students
+# Estimating Heights of the University of Toronto Students
